@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Flavorly",
+    "slug": "flavorly-recipe-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Flavorly.png",
+    "userInterfaceStyle": "automatic",
+
+    "splash": {
+      "image": "./assets/Flavorly.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+
+    "assetBundlePatterns": ["**/*"],
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.flavorly.recipeapp"
+    },
+
+    "android": {
+      "package": "com.flavorly.recipeapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Flavorly.png",
+        "backgroundColor": "#0F172A"
+      }
+    },
+
+    "web": {
+      "favicon": "./assets/Flavorly.png"
+    },
+
+    "plugins": [],
+
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
+  }
+}
