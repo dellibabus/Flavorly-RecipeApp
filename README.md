@@ -4,6 +4,11 @@ A modern recipe mobile app built using **React Native (Expo)** with clean UI, da
 
 ---
 
+## APK Build  (Android)
+https://expo.dev/accounts/dellibabus/projects/flavorly-recipe-app/builds/21cdacf5-47ed-4a6e-b6d3-dcc97c928be6
+
+---
+
 ## Features
 
 * Browse recipes from API
