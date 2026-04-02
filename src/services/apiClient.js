@@ -1,8 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.EXPO_PUBLIC_API_BASE_URL;
-
-console.log('API Base URL:', BASE_URL);
+const BASE_URL = process.env.EXPO_PUBLIC_API_BASE_URL || "https://www.themealdb.com/api/json/v1/1";
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
